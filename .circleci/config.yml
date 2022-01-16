@@ -9,6 +9,6 @@ jobs:
           name: Installing AWS CLI
           command: |
             apt-get update
-            apt-get install awscli
+            apt-get install -y awscli
             aws --version
       - run: tomcat:latest
